@@ -1,0 +1,252 @@
+.info-product{
+    display: flex;
+
+}
+ol{
+    list-style: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+    padding: 0 15px;
+    margin: 14px 0 !important;
+}
+ol li{
+    display: inline;
+    font-size: 12px;
+}
+.button{
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-prev{
+    min-width: 107px;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    background: #f1f1f1;
+    border: 0;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+}
+.btn-next{
+    min-width: 70px;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    background: #fdce09;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+}
+
+.item-btn{
+    position: relative;
+    width: 100%;
+    z-index: 1  ;
+    
+}
+.item-background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+.item-btn>img{
+    cursor: zoom-in;
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: #eee;
+    /* display: inline-block!important; */
+    
+}
+.item-btn .btn-contact{
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    top:30%;
+    left: 41%;
+}
+.btn-contact a{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: #33a637;
+    margin: 10px 0;
+    max-width: 130px;
+    justify-content: center;
+    z-index: 9999;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.btn-contact a img{
+    height: 25px;
+    margin: 0 5px;
+}
+
+.description-product{
+    margin-top: 20px;
+}
+.description-price {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.description-price .price{
+    color: #c90927;
+    font-size: 16px;
+    font-weight: 700;
+}
+.description-price .save button{
+    background: 0 0;
+    border: 1px solid #c90927;
+    border-radius: 20px;
+    color: #c90927;
+    cursor: pointer;
+    display: flex;
+    outline: 0;
+    padding: 5px 10px;
+}
+.description-price button p{
+    margin: 0;
+}
+.description-product>p{
+    margin-bottom: 10p;
+    overflow-wrap: break-word;
+    padding-top: 10px;
+    white-space: pre-line;
+    font-size: 14px;
+}
+.description-condition{
+    margin: 5px 0 15px 0;
+}
+.description-condition img{
+    width: 24px;
+    height: 24px;
+}
+.seller{
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+.seller .seller-contact{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+.seller-contact .avatar img{
+    width: 50px;
+    height: 50x;
+}
+.seller-contact .more{
+    flex: 1 1;
+    padding-left: 8px;
+}
+.seller-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.seller-info .seller-name{
+    font-size: 13px;
+    font-weight: 700;
+}
+.seller-info .seller-profile button{
+    background-color: #fff;
+    border: 1px solid #fe9900;
+    color: #fe9900;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 7px 10px;
+}
+.seller-status{
+    display: flex;
+    font-size: 11px;  
+    color: #9b9b9b;
+}
+.seller-rate{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: #9b9b9b;
+    font-size: 14px;
+}
+.seller-rate .info img{
+    height: 20px;
+}
+.seller-rate .border{
+    height: 20px;
+    width: 1px;
+}
+.seller-rate .rating-star{
+    width: 13px;
+    margin-right: -5px;
+}
+
+.seller-rate .feedback-status{
+    font-size: 12px;
+    color: #222222;
+    font-weight: 700;
+}
+.button-contact .btn-call{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(51, 168, 55);
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.button-contact .btn-chat{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgb(51, 168, 55);
+    font-weight: 700;
+    padding: 8px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.button-contact .btn-call img{
+    width: 24px;
+    height: 24px;
+}
+.button-contact .btn-chat img{
+    height: 24px;
+}
+.button-contact span{
+    text-transform: uppercase;
+}
+.safe-text{
+    background-color: #fff;
+    margin-bottom: 10px;
+    min-height: 108px;
+    padding: 3px;
+    font-size: 13px;
+    font-style: italic;
+    padding-top: 20px;
+}
+.safe-text img{
+    float: left;
+    margin-right: 15px;
+    width:100px ;
+    height:100px ;
+}
+.safe-text p{
+    font-size: 13px;
+}

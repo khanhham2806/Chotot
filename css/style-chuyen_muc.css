@@ -1,0 +1,35 @@
+h5{
+    font-size: 17px;
+    margin: 0p 0px 12px 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: rgb(34, 34, 34);
+}
+.category{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+.category img{
+    width: 60px;
+    height: 60px;
+}
+.category li{
+    flex: 1 1 25%;
+}
+.category-item{
+    display: flex;
+    text-decoration: none;
+    padding: 15px 0px 4px 8px       ;
+}
+.category-item .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    color: black;
+}
